@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>INDEX</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+</head>
+
+<body>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Google Cloud Messaging</h1>
+    <p>This is a test webpage to send push notifications to your phone </p>
+  </div>
+  <div class="row">
+    <!--<div class="col col-sm-4 step1">
+      <h2>Step-1</h2>
+      <div class="alert alert-success"></div>
+      <form id="ajax-register" action="register.php" method="post">
+      <label>Register A User</label>
+        <fieldset class="form-group">
+          <input class="form-control" id="email" name="email" placeholder="Enter email" type="email" required>
+        </fieldset>
+        <fieldset class="form-group">
+          <input class="form-control" id="password" name="password" placeholder="Password" type="password" required>
+        </fieldset>
+        <button type="submit" class="btn btn-info active">REGISTER</button>
+      </form>
+      
+      
+    </div>
+    <div class="col col-sm-4 step2">
+      <h2>Step-2</h2>
+      
+      <div class="alert alert-success"></div>
+      
+      
+      
+      <form id="ajax-register" method="post">
+        <label>Select A User by email</label>
+        <div class="input-group">
+           <select class="form-control" id="userlist">              
+            </select>
+           <span class="input-group-btn">
+                <button id="refreshlist" class="btn btn-default" type="button" onClick="Userlist()">Refresh!</button>
+           </span>
+        </div>
+        <small class="text-muted">We'll never share your email with anyone else.</small>
+      </form>
+      
+      
+      
+      
+    </div> -->
+    <div class="container step3">
+      <h2>Step-3</h2>
+      <div class="alert alert-success"></div>
+      <form id="call-register" action="gcm.php" method="post">
+      <label>Call A User</label>
+        <fieldset class="form-group">
+          <input class="form-control" id="phone" name="phone" placeholder="Enter phone number" type="tel" required>
+        </fieldset>
+        <fieldset class="form-group">
+          <input class="form-control" id="userid" name="userid" placeholder="Enter user ID" type="text" required>
+        </fieldset>
+        <fieldset class="form-group">
+          <input class="form-control" id="gcm_key" name="gcm_key" placeholder="Enter GCM KEY" type="text" required>
+        </fieldset>
+
+        <button type="submit" class="btn btn-info active">INITIATE</button>
+      </form>
+      
+    </div>
+  </div>
+</div>
+</body>
+</html>
